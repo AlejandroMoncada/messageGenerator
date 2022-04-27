@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Generador de tweet</title>
+</head>
+<body>
+<main>
+  <div class="cam"><div class="cam1"></div></div>
+  <div class="phone">
+    <!-- Parte nav / saludo del cel -->
+    <div class="welcome">
+      <h1>Bienvenido</h1>
+      <div class="navName">
+        <h4 id="name" style="color:white;"></h4>
+        <div class="logo">
+          <h3 id="F"></h3>
+        </div>
+      </div>
+    </div>
+    <!-- section del cel -->
+    
+    <div class="inputMessage">
+      <!-- <p class="messageFirst" >Esto es un simulador de Tweet, Espero que te guste.</p> -->
+      <!-- formulario de envio de comentario -->
+      <form method="dialog">
+        <label>Digite su nombre</label>
+        <input id="nameInto" type="text" placeholder="Ingrese su nombre"  maxlength="10"/>
+        <label>Comentario</label>
+        <textarea id="text" maxlength="200" placeholder="Ingrese su comentario"></textarea>
+        <h4 id="contador" style="margin: 5px; color: white;">Contador -> 200</h4>
+        <button id="button">Publicar</button>
+      </form>
+      <p id="coment" style="margin: 9px;">Su comentario es -> </p>
+    </div>
+
+  </div>
+  <div class="phoneButton">
+    <img src="img/samsung.png"/>
+  </div>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>
